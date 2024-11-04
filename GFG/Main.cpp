@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#include "KthSmallest.cpp"
+#include "FindAllTripletsWithSum0.cpp"
 using namespace std;
 
 int main()
 {
-	freopen("../input.txt", "r", stdin);
-	freopen("../output.txt", "w", stdout);
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
 
 	// test case
 	int t;
@@ -15,22 +15,24 @@ int main()
 
 	while (t-- != 0)
 	{
-		vector<int> v;
 		int n;
-		int val;
 		cin >> n;
+		vector<int> v(n);
 
 		for (int i = 0; i < n; i++)
 		{
-			cin >> val;
-			v.push_back(val);
+			cin >> v[i];
 		}
-		int k;
-		cin >> k;
 
-		cout << s.kthSmallest(v, k);
+		// int k;
+		// cin >> k;
+
+		// string x, y;
+		// cin >> x;
+		// cin >> y;
+
+		for (int)
 
 		cout << endl;
-
 	}
 }
